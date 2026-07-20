@@ -1,5 +1,5 @@
-baseURL = "https://workshop-sample.awsfcaj.com/"
-relativeURLs = false
+baseURL = "https://QuynhNhuNT.github.io/Workshop_ND-3TCloudInfraSec_ResumeFit_NguyenTrinhQuynhNhu/"
+relativeURLs = true
 canonifyURLs = false
 defaultContentLanguage = "en"
 
