@@ -25,10 +25,12 @@ pre: " <b> 4.4. </b> "
 *   Các chuyên gia từ **Cloud Kinetics** cùng dàn kỹ sư GenAI xuất sắc
 
 ### Nội dung nổi bật
-*   **Xu hướng thị trường việc làm:** Cập nhật những thay đổi mới nhất trong tuyển dụng mảng Cloud Computing toàn cầu và cơ hội nghề nghiệp mở rộng cho sinh viên.
-*   **Từ lý thuyết đến thực chiến:** Câu chuyện thực tế về quá trình biến đổi từ sinh viên thành kỹ sư dữ liệu thực thụ, phương pháp tối ưu hóa kiến trúc dữ liệu trong thế giới thực của doanh nghiệp.
-*   **Fireside Chat:** Buổi thảo luận đầy cảm hứng về cách nuôi dưỡng, đào tạo và phát triển thế hệ lập trình viên và kiến trúc sư Cloud tài năng tiếp theo tại Việt Nam.
-*   **💡 Key takeaway lớn nhất:** Công nghệ thay đổi mỗi ngày, nhưng tư duy giải quyết vấn đề và tinh thần chủ động "thực chiến" chính là chìa khóa vàng để bạn dẫn đầu xu hướng.
+*   **Khám phá văn phòng và văn hóa làm việc tại AWS:** Sinh viên được tham quan không gian làm việc hiện đại tại Bitexco, tìm hiểu về triết lý làm việc "Day 1" độc đáo của Amazon và cách các nhóm kỹ sư toàn cầu phối hợp làm việc hàng ngày.
+*   **Xu hướng tuyển dụng và Cơ hội nghề nghiệp:** Các chuyên gia nhân sự và Solutions Architect từ AWS, Renova Cloud chia sẻ về nhu cầu thực tế của thị trường. Nhấn mạnh việc doanh nghiệp ưu tiên ứng viên có kinh nghiệm thực hành (hands-on) và khả năng tự giải quyết vấn đề hơn là chỉ sở hữu chứng chỉ lý thuyết.
+*   **Kiến trúc Đám mây Doanh nghiệp (Enterprise Cloud Architectures):** Các chuyên gia từ Renova Cloud và Cloud Kinetics chia sẻ case study thực tế về cách thiết kế hệ thống chịu tải lớn, các giải pháp di trú hạ tầng (migration), tối ưu hóa chi phí đám mây và áp dụng bảo mật theo mô hình Zero Trust.
+*   **Ứng dụng GenAI & Dữ liệu trong thực tiễn:** Giới thiệu cách doanh nghiệp xây dựng luồng dữ liệu (Data Pipelines) quy mô lớn và tích hợp các mô hình trí tuệ nhân tạo thông qua Amazon Bedrock, SageMaker để tối ưu hóa quy trình nghiệp vụ (như tự động phân tích hành vi khách hàng, hỗ trợ ra quyết định).
+*   **Fireside Chat - Chia sẻ kinh nghiệm chuyển đổi:** Buổi thảo luận bàn tròn mở giữa chuyên gia và sinh viên về hành trình từ một sinh viên ngồi trên ghế nhà trường bứt phá trở thành một kỹ sư Cloud/DevOps thực chiến, cách vượt qua các rào cản công nghệ ban đầu và cách tự xây dựng các dự án cá nhân (portfolio) ấn tượng.
+*   **💡 Key takeaway lớn nhất:** Công nghệ đám mây và AI thay đổi mỗi ngày, nhưng tư duy giải quyết vấn đề một cách hệ thống, kiến thức mạng/hệ điều hành nền tảng vững chắc và tinh thần chủ động tự học (Learn and Be Curious) chính là chìa khóa để dẫn đầu xu hướng.
 
 ### Những gì học được
 *   **Tư duy thực chiến:** Luôn chủ động biến lý thuyết khô khan trên giảng đường thành các giải pháp thực tế. Rèn luyện tư duy giải quyết bài toán nghiệp vụ cụ thể cho doanh nghiệp thay vì chỉ học công cụ.

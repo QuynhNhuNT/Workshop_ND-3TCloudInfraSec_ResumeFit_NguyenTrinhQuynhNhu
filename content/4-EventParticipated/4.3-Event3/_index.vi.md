@@ -11,20 +11,13 @@ pre: " <b> 4.3. </b> "
 ### Thông tin sự kiện
 *   **Tên sự kiện:** First Cloud Journey (FCJ) Community Day
 *   **Thời gian tổ chức:** 06/06/2026
-*   **Địa điểm tổ chức:** Đại học HUTECH và Đại học Công nghệ Swinburne (Tổ chức trực tiếp)
+*   **Địa điểm tổ chức:** Tầng 36, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
 *   **Đơn vị tổ chức:** Team AWS G3 phối hợp cùng cộng đồng First Cloud Journey
 
 ### Mục đích & Mục tiêu
 *   **Mục tiêu chương trình:** Chia sẻ kiến thức thực tế về lộ trình trở thành kỹ sư Cloud, bảo mật và DevOps; cập nhật các công nghệ mới như Machine Learning (ML), Docker, và AI (GraphRAG).
 *   **Giá trị dành cho người tham dự:** Tiếp cận những kiến thức từ nền tảng đến chuyên sâu về hạ tầng đám mây, học hỏi kinh nghiệm thực chiến từ các diễn giả đang làm việc tại các tập đoàn lớn.
 
-### Danh sách diễn giả
-*   **Lê Hoàng Gia Đại** - Sinh viên năm cuối ĐH HUTECH, thuộc Team AWS G3.
-*   **Bao Huynh** - Junior Cloud Native Developer tại Endava Vietnam, Founder ITea Lab.
-*   **Trần Trung Vinh** - System Administrator tại Central Retail Group.
-*   **Nguyễn Quốc Bảo** - Chuyên gia về mảng Multiplayer và Cloud.
-*   **Trương Huy Phước** - Chuyên gia về kỹ năng làm việc nhóm.
-*   **Việt Phát** - Sinh viên chuyên ngành AI tại ĐH Swinburne.
 
 ### Nội dung nổi bật
 *   **Bảo mật mạng với ML:** Giới thiệu hệ thống phát hiện xâm nhập mạng (NIDS) dựa trên Machine Learning kết hợp với AWS WAF để khắc phục hạn chế của các quy tắc (rules) truyền thống. Giải pháp sử dụng bộ dữ liệu CSE-CIC-IDS2018 để huấn luyện mô hình thực tế.

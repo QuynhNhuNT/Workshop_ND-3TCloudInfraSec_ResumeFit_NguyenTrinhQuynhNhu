@@ -20,13 +20,14 @@ pre: " <b> 4.2. </b> "
 *   **Giá trị dành cho người tham dự:** Giúp người tham dự hiểu rõ sự biến động của thị trường việc làm dưới tác động của AI, cách chuẩn bị nền tảng để không bị đào thải, và trang bị tư duy giải quyết các bài toán thực tế của doanh nghiệp.
 
 ### Danh sách diễn giả
-*   **Quỳnh Mai** - Vai trò: MC
-*   **Nguyễn Gia Hưng** - Chức vụ: Head of Solution Architect (AWS Vietnam), Founder của FCAJ
-*   **Tịnh** - Chức vụ: Platform Engineer (Gotam X)
-*   **Hải Anh** - Diễn giả từ Pacific Vietnam (Từng trình bày tại AWS Singapore Summit và Silicon Valley)
-*   **Thịnh** - Chức vụ: DevOps Engineer (UTM Group) đại diện nhóm Developers trình bày dự án Hackathon
-*   **Đức** - Chuyên gia tối ưu hóa Large Language Models (LLM Optimization)
-*   **Vy** - Đại diện từ VPBank (Vietnam Prosperity Joint Stock Commercial Bank) trình bày hệ thống Enterprise Multi-Agent
+*   **Speaker 1:** Tinh Truong – Platform Engineer at GoTymeX
+*   **Speaker 2:** Thinh Nguyen – DevOps Engineer | FCAJ Ambassador
+*   **Speaker 3:** Anh Pham – Cloud Consultant at G-AsiaPacific Vietnam
+*   **Speaker 4:** Uyen Le – GenAI Engineer at VIB
+*   **Speaker 5:** Thao Nguyen – GenAI Engineer at VIB
+*   **Speaker 6:** Mai Nguyen – GenAI Engineer at VIB
+*   **Speaker 7:** Duc Dao – Solutions Architect at Cloud Kinetics
+*   **Speaker 8:** Vy Lam – Senior Business Systems Analyst at VPBank
 
 ### Nội dung nổi bật
 *   **Tổng quan vấn đề:** AI khiến chi phí tạo phần mềm rẻ đi, do đó nhu cầu phần mềm sẽ tăng khủng khiếp, tạo ra rất nhiều việc làm mới trong mảng vận hành (Platform engineering) và sửa lỗi (fix code do AI sinh ra). Một vấn đề khác là việc sinh code bằng AI nhưng thiếu ngữ cảnh sẽ tạo ra rác (ảo giác/hallucination của LLM).

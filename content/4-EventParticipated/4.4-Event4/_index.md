@@ -25,10 +25,12 @@ pre: " <b> 4.4. </b> "
 *   Experts from **Cloud Kinetics** and outstanding GenAI engineers
 
 ### Event Highlights
-*   **Job Market & Career Trends:** The latest updates on recruitment trends in Cloud Computing globally and career opportunities for graduates.
-*   **From Theory to Execution:** Real stories of converting classroom theory into enterprise-level data architectures.
-*   **Fireside Chat:** An inspiring discussion on nurturing, mentoring, and developing the next generation of Vietnamese Cloud architects and developers.
-*   **💡 Key Takeaway:** Technology changes every day, but a problem-solving mindset and a proactive "hands-on" attitude are the golden keys to staying ahead.
+*   **AWS Office Tour & Culture Experience:** Students toured the modern workplace at Bitexco Financial Tower, experiencing Amazon's unique "Day 1" working philosophy and seeing how global engineering teams collaborate on a daily basis.
+*   **Job Market & Career Opportunities:** HR experts and Solutions Architects from AWS and Renova Cloud shared realistic market demands. They emphasized that companies prioritize candidates with hands-on project experience and independent troubleshooting skills over those with only theoretical certifications.
+*   **Enterprise Cloud Architectures:** Engineering experts from Renova Cloud and Cloud Kinetics presented real-world case studies on designing high-availability architectures, large-scale cloud migrations, cloud cost optimization, and implementing Zero Trust security models.
+*   **Data Pipelines & GenAI in Production:** Technical sessions on how modern enterprises build robust data pipelines and integrate generative AI models using Amazon Bedrock and SageMaker to optimize business operations (e.g., automated customer behavior analysis, decision-making support).
+*   **Fireside Chat - Bridging the Gap:** A round-table discussion between industry veterans and students on the journey from university to becoming a practical Cloud/DevOps engineer, overcoming early technical roadblocks, and building an impressive personal portfolio.
+*   **💡 Key Takeaway:** Cloud and AI technologies change rapidly, but a systematic problem-solving mindset, a strong grasp of networking and operating system foundations, and a proactive attitude toward continuous learning (Learn and Be Curious) are the golden keys to staying ahead.
 
 ### Key Learnings
 *   **Hands-on Mindset:** Be proactive in turning classroom theory into workable solutions. Focus on solving business problems rather than just learning tool features.

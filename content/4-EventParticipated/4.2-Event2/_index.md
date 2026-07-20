@@ -20,13 +20,14 @@ pre: " <b> 4.2. </b> "
 *   **Value for Attendees:** Help attendees understand job market dynamics under the impact of AI, how to build core foundations to prevent obsolescence, and equip them with problem-solving mindsets for real-world enterprise challenges.
 
 ### Speaker List
-*   **Quynh Mai** - Role: MC
-*   **Nguyen Gia Hung** - Title: Head of Solution Architect (AWS Vietnam), Founder of FCAJ
-*   **Tinh** - Title: Platform Engineer (Gotam X)
-*   **Hai Anh** - Speaker from Pacific Vietnam (Previously presented at AWS Singapore Summit and Silicon Valley)
-*   **Thinh** - Title: DevOps Engineer (UTM Group) representing the Developers team to present their Hackathon project
-*   **Duc** - Specialist in Large Language Models (LLM Optimization)
-*   **Vy** - Representative from VPBank (Vietnam Prosperity Joint Stock Commercial Bank) presenting Enterprise Multi-Agent System
+*   **Speaker 1:** Tinh Truong – Platform Engineer at GoTymeX
+*   **Speaker 2:** Thinh Nguyen – DevOps Engineer | FCAJ Ambassador
+*   **Speaker 3:** Anh Pham – Cloud Consultant at G-AsiaPacific Vietnam
+*   **Speaker 4:** Uyen Le – GenAI Engineer at VIB
+*   **Speaker 5:** Thao Nguyen – GenAI Engineer at VIB
+*   **Speaker 6:** Mai Nguyen – GenAI Engineer at VIB
+*   **Speaker 7:** Duc Dao – Solutions Architect at Cloud Kinetics
+*   **Speaker 8:** Vy Lam – Senior Business Systems Analyst at VPBank
 
 ### Event Highlights
 *   **Problem Overview:** AI is reducing the cost of software development, which will cause a massive surge in software demand. This will create many new jobs in operations (Platform engineering) and debugging (fixing AI-generated code). Another issue is that generating code using AI without proper context produces bloated, low-quality outputs (LLM hallucinations).
