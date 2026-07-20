@@ -20,14 +20,14 @@ pre: " <b> 4.2. </b> "
 *   **Value for Attendees:** Help attendees understand job market dynamics under the impact of AI, how to build core foundations to prevent obsolescence, and equip them with problem-solving mindsets for real-world enterprise challenges.
 
 ### Speaker List
-*   **Speaker 1:** Tinh Truong – Platform Engineer at GoTymeX
-*   **Speaker 2:** Thinh Nguyen – DevOps Engineer | FCAJ Ambassador
-*   **Speaker 3:** Anh Pham – Cloud Consultant at G-AsiaPacific Vietnam
-*   **Speaker 4:** Uyen Le – GenAI Engineer at VIB
-*   **Speaker 5:** Thao Nguyen – GenAI Engineer at VIB
-*   **Speaker 6:** Mai Nguyen – GenAI Engineer at VIB
-*   **Speaker 7:** Duc Dao – Solutions Architect at Cloud Kinetics
-*   **Speaker 8:** Vy Lam – Senior Business Systems Analyst at VPBank
+*   **Tinh Truong** – Platform Engineer at GoTymeX
+*   **Thinh Nguyen** – DevOps Engineer | FCAJ Ambassador
+*   **Anh Pham** – Cloud Consultant at G-AsiaPacific Vietnam
+*   **Uyen Le** – GenAI Engineer at VIB
+*   **Thao Nguyen** – GenAI Engineer at VIB
+*   **Mai Nguyen** – GenAI Engineer at VIB
+*   **Duc Dao** – Solutions Architect at Cloud Kinetics
+*   **Vy Lam** – Senior Business Systems Analyst at VPBank
 
 ### Event Highlights
 *   **Problem Overview:** AI is reducing the cost of software development, which will cause a massive surge in software demand. This will create many new jobs in operations (Platform engineering) and debugging (fixing AI-generated code). Another issue is that generating code using AI without proper context produces bloated, low-quality outputs (LLM hallucinations).

@@ -25,12 +25,16 @@ pre: " <b> 4.4. </b> "
 *   Các chuyên gia từ **Cloud Kinetics** cùng dàn kỹ sư GenAI xuất sắc
 
 ### Nội dung nổi bật
-*   **Khám phá văn phòng và văn hóa làm việc tại AWS:** Sinh viên được tham quan không gian làm việc hiện đại tại Bitexco, tìm hiểu về triết lý làm việc "Day 1" độc đáo của Amazon và cách các nhóm kỹ sư toàn cầu phối hợp làm việc hàng ngày.
-*   **Xu hướng tuyển dụng và Cơ hội nghề nghiệp:** Các chuyên gia nhân sự và Solutions Architect từ AWS, Renova Cloud chia sẻ về nhu cầu thực tế của thị trường. Nhấn mạnh việc doanh nghiệp ưu tiên ứng viên có kinh nghiệm thực hành (hands-on) và khả năng tự giải quyết vấn đề hơn là chỉ sở hữu chứng chỉ lý thuyết.
-*   **Kiến trúc Đám mây Doanh nghiệp (Enterprise Cloud Architectures):** Các chuyên gia từ Renova Cloud và Cloud Kinetics chia sẻ case study thực tế về cách thiết kế hệ thống chịu tải lớn, các giải pháp di trú hạ tầng (migration), tối ưu hóa chi phí đám mây và áp dụng bảo mật theo mô hình Zero Trust.
-*   **Ứng dụng GenAI & Dữ liệu trong thực tiễn:** Giới thiệu cách doanh nghiệp xây dựng luồng dữ liệu (Data Pipelines) quy mô lớn và tích hợp các mô hình trí tuệ nhân tạo thông qua Amazon Bedrock, SageMaker để tối ưu hóa quy trình nghiệp vụ (như tự động phân tích hành vi khách hàng, hỗ trợ ra quyết định).
-*   **Fireside Chat - Chia sẻ kinh nghiệm chuyển đổi:** Buổi thảo luận bàn tròn mở giữa chuyên gia và sinh viên về hành trình từ một sinh viên ngồi trên ghế nhà trường bứt phá trở thành một kỹ sư Cloud/DevOps thực chiến, cách vượt qua các rào cản công nghệ ban đầu và cách tự xây dựng các dự án cá nhân (portfolio) ấn tượng.
-*   **💡 Key takeaway lớn nhất:** Công nghệ đám mây và AI thay đổi mỗi ngày, nhưng tư duy giải quyết vấn đề một cách hệ thống, kiến thức mạng/hệ điều hành nền tảng vững chắc và tinh thần chủ động tự học (Learn and Be Curious) chính là chìa khóa để dẫn đầu xu hướng.
+*   **Xu hướng thị trường việc làm & Cơ hội nghề nghiệp:** 
+    * Phân tích sâu về sự dịch chuyển nhu cầu tuyển dụng mảng Cloud Computing toàn cầu, đặc biệt là xu hướng tích hợp AI/ML vào hạ tầng Cloud.
+    * Các vị trí mới nổi lên như Cloud FinOps, AI/ML Cloud Architect, và Data Engineer, mở ra cơ hội vàng cho sinh viên mới ra trường nắm bắt lợi thế cạnh tranh.
+*   **Từ lý thuyết đến thực chiến - Kiến trúc dữ liệu:** 
+    * Lắng nghe câu chuyện thực tế về hành trình chuyển mình từ sinh viên IT thành một kỹ sư dữ liệu (Data Engineer) và Cloud Engineer thực thụ.
+    * Các Case Study cụ thể về cách các doanh nghiệp lớn tối ưu hóa kiến trúc dữ liệu (Data Architecture) để tiết kiệm chi phí, giảm độ trễ, và nâng cao hiệu suất xử lý dữ liệu lớn (Big Data).
+*   **Fireside Chat - Định hình thế hệ tài năng mới:** 
+    * Buổi thảo luận đầy cảm hứng giữa các chuyên gia AWS và các nhà lãnh đạo công nghệ về phương pháp nuôi dưỡng, đào tạo thế hệ kỹ sư/kiến trúc sư Cloud tài năng tại Việt Nam.
+    * Thảo luận về việc xây dựng văn hóa đổi mới sáng tạo, tư duy tự học liên tục trong môi trường công nghệ biến đổi nhanh chóng.
+*   **💡 Key takeaway lớn nhất:** Công nghệ và các công cụ sẽ luôn thay đổi mỗi ngày, nhưng tư duy giải quyết vấn đề (Problem-solving mindset), khả năng thích ứng linh hoạt, và tinh thần chủ động "thực chiến" chính là chìa khóa vàng vững chắc nhất để giữ vị thế dẫn đầu.
 
 ### Những gì học được
 *   **Tư duy thực chiến:** Luôn chủ động biến lý thuyết khô khan trên giảng đường thành các giải pháp thực tế. Rèn luyện tư duy giải quyết bài toán nghiệp vụ cụ thể cho doanh nghiệp thay vì chỉ học công cụ.
