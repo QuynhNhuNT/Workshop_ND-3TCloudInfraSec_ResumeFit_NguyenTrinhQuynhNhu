@@ -1,5 +1,5 @@
 baseURL = "https://QuynhNhuNT.github.io/Workshop_ND-3TCloudInfraSec_ResumeFit_NguyenTrinhQuynhNhu/"
-relativeURLs = true
+relativeURLs = false
 canonifyURLs = false
 defaultContentLanguage = "en"
 
