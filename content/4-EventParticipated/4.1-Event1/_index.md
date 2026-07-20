@@ -16,23 +16,23 @@ pre: " <b> 4.1. </b> "
 
 ### Event Objectives
 *   **Program Goal:** To create an environment and opportunity for young individuals (especially 3rd and 4th-year students or fresh graduates) to confidently share knowledge, practice public speaking, build self-confidence, and receive career orientation.
-*   **Key Messages:** Dopamine hacking for study motivation, Prompt Engineering optimization techniques, core mindset for IT professionals in the GenAI era, and standard software development workflows using AI (the BMX methodology).
+*   **Key Messages:** Dopamine hacking for study motivation, Prompt Engineering optimization techniques, core mindset for IT professionals in the GenAI era, and standard software development workflows using AI (the BMAD methodology).
 *   **Value for Attendees:** Help attendees overcome the fear of being replaced by AI, understand the paramount importance of foundational knowledge, learn how to leverage tools through structured workflows, and cultivate core career values like integrity and long-term thinking.
 
 ### Speaker List
-*   **Long** - Presentation Topic: *Brain Hacking with Dopamine*
-*   **Thinh** - Presentation Topic: *Ultimate Prompt Engineering and AWS Architecture*
-*   **Khang** - Solutions Architect (Affiliation: Cloud Kinetics)
-*   **Thao** - Software Developer (Affiliation: Vietnam International Bank - VIB)
+*   **Speaker 1:** Khang Nguyen – Solution Architect at CloudKinetics
+*   **Speaker 2:** Thinh Nguyen – DevOps Engineer | FCAJ Ambassador at AWS
+*   **Speaker 3:** Long Hoang – FCAJ Ambassador at AWS
+*   **Speaker 4:** Thao Nguyen Phuong – Cloud Engineer Intern at VIB | FCJ Ambassador at AWS
 
 ### Event Highlights
 *   **Problem Overview:** Students and professionals often lack learning motivation and are easily distracted by social media due to a lack of "quick rewards". Additionally, in professional environments, over-relying on AI to write code directly without context generates bloated, disconnected code (due to AI hallucinations).
 *   **Solutions Introduced:** 
     *   To study effectively: break goals down, set up short-term rewards, and build a streak (gamification) to trick the brain into releasing dopamine.
-    *   To master AI: focus on "foundations", break tasks down into documentation templates (under the BMX method) before allowing AI to generate code.
+    *   To master AI: focus on "foundations", break tasks down into documentation templates (under the BMAD method) before allowing AI to generate code.
 *   **Technologies, Services, & Tools:**
     *   **AWS Services:** CloudFront, S3 (storage), Cognito (auth), API Gateway, Lambda (serverless backend), Bedrock (AI models), DynamoDB (NoSQL Database), CloudWatch (monitoring).
-    *   **AI Tools:** LLMs (Claude, Gemini), "Promptimizer" browser extension, BMX framework.
+    *   **AI Tools:** LLMs (Claude, Gemini), "Promptimizer" browser extension, BMAD framework.
 *   **Demos & Case Studies:** 
     *   Presented a real-world Serverless and AI-powered architecture built on AWS.
     *   Demoed a browser extension named "Promptimizer" used to highlight text and instantly optimize prompts inside the browser.

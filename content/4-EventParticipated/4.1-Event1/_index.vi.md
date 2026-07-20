@@ -16,23 +16,23 @@ pre: " <b> 4.1. </b> "
 
 ### Mục đích của sự kiện
 *   **Mục tiêu của chương trình:** Tạo môi trường và cơ hội để các bạn trẻ (đặc biệt là sinh viên năm 3, năm 4 hoặc mới ra trường) mạnh dạn chia sẻ kiến thức, rèn luyện kỹ năng thuyết trình, thái độ tự tin trước đám đông và định hướng phát triển sự nghiệp.
-*   **Nội dung chính muốn truyền tải:** Cách tạo động lực học tập (hack dopamine), kỹ thuật tối ưu hóa câu lệnh AI (Prompt Engineering), định hướng tư duy cốt lõi trong ngành IT giữa kỷ nguyên AI, và quy trình chuẩn ứng dụng AI vào phát triển phần mềm (phương pháp BMX).
+*   **Nội dung chính muốn truyền tải:** Cách tạo động lực học tập (hack dopamine), kỹ thuật tối ưu hóa câu lệnh AI (Prompt Engineering), định hướng tư duy cốt lõi trong ngành IT giữa kỷ nguyên AI, và quy trình chuẩn ứng dụng AI vào phát triển phần mềm (phương pháp BMAD).
 *   **Giá trị dành cho người tham dự:** Giúp người tham dự vượt qua nỗi sợ bị AI thay thế, hiểu được tầm quan trọng của kiến thức nền tảng (foundation), biết cách vận dụng công cụ đúng quy trình và định hình các yếu tố cốt lõi khi phát triển sự nghiệp như "sự liêm chính" (integrity) và tư duy dài hạn.
 
 ### Danh sách diễn giả
-*   **Long** - Chủ đề trình bày: *Hack não bộ với Dopamine*
-*   **Thịnh** - Chủ đề trình bày: *Ultimate Prompt Engineering và kiến trúc AWS*
-*   **Khang** - Solutions Architect (Đơn vị công tác: Cloud Kinetics)
-*   **Thảo** - Software Developer (Đơn vị công tác: Ngân hàng Quốc tế Việt Nam - VIB)
+*   **Speaker 1:** Khang Nguyen – Solution Architect at CloudKinetics
+*   **Speaker 2:** Thinh Nguyen – DevOps Engineer | FCAJ Ambassador at AWS
+*   **Speaker 3:** Long Hoang – FCAJ Ambassador at AWS
+*   **Speaker 4:** Thao Nguyen Phuong – Cloud Engineer Intern at VIB | FCJ Ambassador at AWS
 
 ### Nội dung nổi bật
 *   **Tổng quan vấn đề:** Sinh viên và người đi làm thường thiếu động lực học tập, dễ bị phân tâm bởi mạng xã hội do thiếu "phần thưởng nhanh". Ngoài ra, trong môi trường làm việc, việc quá phụ thuộc vào AI để viết code trực tiếp mà thiếu bối cảnh sẽ tạo ra những đoạn code rác, thiếu đồng bộ (ảo giác/hallucination của AI).
 *   **Giải pháp được giới thiệu:** 
     *   Để học tập hiệu quả, cần chia nhỏ mục tiêu, tạo phần thưởng ngắn hạn, xây dựng "chuỗi" liên tục (như chơi game) để đánh lừa não bộ tiết ra dopamine. 
-    *   Để làm chủ AI, phải tập trung vào "nền tảng" (foundation), chia nhỏ task ra thành các văn bản mô tả (document) theo phương pháp BMX trước khi để AI sinh code.
+    *   Để làm chủ AI, phải tập trung vào "nền tảng" (foundation), chia nhỏ task ra thành các văn bản mô tả (document) theo phương pháp BMAD trước khi để AI sinh code.
 *   **Công nghệ / Dịch vụ / Công cụ:**
     *   **AWS Services:** CloudFront, S3 (lưu trữ), Cognito (xác thực), API Gateway, Lambda (serverless backend), Bedrock (AI models), DynamoDB (NoSQL Database), CloudWatch (Monitoring).
-    *   **Công cụ AI:** Các mô hình LLMs (Claude, Gemini), extension "Promptimizer", framework BMX.
+    *   **Công cụ AI:** Các mô hình LLMs (Claude, Gemini), extension "Promptimizer", framework BMAD.
 *   **Demo hoặc Case Study:** 
     *   Trình bày một kiến trúc thực tế xây dựng trên AWS kết hợp nhiều dịch vụ Serverless và AI.
     *   Demo sử dụng tiện ích mở rộng có tên "Promptimizer" để bôi đen văn bản và nhờ AI tối ưu hóa Prompt ngay trên trình duyệt.
