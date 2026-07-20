@@ -1,5 +1,5 @@
 ---
-title: "Giá»›i thiá»‡u"
+title: "Giới thiệu"
 date: 2026-07-10
 weight: 1
 chapter: false
