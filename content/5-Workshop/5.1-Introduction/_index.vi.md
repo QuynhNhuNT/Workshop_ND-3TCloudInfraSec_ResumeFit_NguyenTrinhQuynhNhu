@@ -21,8 +21,3 @@ Hệ thống được thiết kế theo kiến trúc chuẩn trên AWS, đảm b
   </div>
 </div>
 
-# 5.2. Các bước chuẩn bị (Prerequisites)
-
-* Một tài khoản AWS có quyền Administrator.
-* Cấu hình cơ bản về AWS IAM để cấp quyền cho các dịch vụ.
-* Kiến thức cơ bản về Linux shell và Docker.

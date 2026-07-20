@@ -21,8 +21,3 @@ The system is designed following standard architecture on AWS, ensuring high sca
   </div>
 </div>
 
-# 5.2. Prerequisites
-
-* An AWS account with Administrator privileges.
-* Basic AWS IAM configuration to grant permissions for services.
-* Basic knowledge of Linux shell and Docker.
