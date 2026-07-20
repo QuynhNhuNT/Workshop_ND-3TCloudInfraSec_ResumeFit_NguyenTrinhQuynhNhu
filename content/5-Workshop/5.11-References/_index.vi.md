@@ -62,16 +62,19 @@ Dưới đây là bảng phân tích chi phí dự tính hàng tháng khi vận 
 ## 4. Development and deployment
 
 Quá trình phát triển và triển khai hệ thống tuân theo các tiêu chuẩn kỹ thuật hiện đại:
-*   Mã nguồn được quản lý và kiểm soát phiên bản (Version Control) thông qua **GitHub**.
-*   Ứng dụng backend được đóng gói (containerized) bằng **Docker**, đảm bảo tính đồng nhất tuyệt đối giữa môi trường phát triển cục bộ và môi trường máy chủ EC2 thực tế trên cloud.
+*   Mã nguồn được quản lý và kiểm soát phiên bản (Version Control) thông qua **GitHub**: [Tìm hiểu về GitHub](https://github.com/about)
+*   Ứng dụng backend được đóng gói (containerized) bằng **Docker**, đảm bảo tính đồng nhất tuyệt đối giữa môi trường phát triển cục bộ và môi trường máy chủ EC2 thực tế trên cloud. Tham khảo: [Docker trên AWS](https://aws.amazon.com/docker/)
 *   Tài nguyên hạ tầng (Infrastructure) được cấp phát thông qua AWS Console, kết hợp sử dụng User Data trong cấu hình Launch Template để tự động cài đặt môi trường, pull Docker image và chạy ứng dụng mỗi khi một EC2 instance mới được Auto Scaling sinh ra.
+    *   Tham khảo: [Chạy lệnh trên EC2 bằng User Data](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html)
+    *   Tham khảo: [AWS Auto Scaling Groups](https://docs.aws.amazon.com/autoscaling/ec2/userguide/AutoScalingGroup.html)
+    *   Tham khảo: [Tạo Launch Template cho Auto Scaling](https://docs.aws.amazon.com/autoscaling/ec2/userguide/create-launch-template.html)
 
 ## 5. Cost and resource cleanup
 
 Vì hệ thống triển khai nhiều dịch vụ tính phí theo giờ (đặc biệt là NAT Gateway, EC2 và ALB), việc dọn dẹp tài nguyên (Resource Cleanup) sau khi hoàn tất demo đồ án là cực kỳ quan trọng để tránh lãng phí ngân sách AWS Credits. Quá trình dọn dẹp cần được thực hiện triệt để theo thứ tự ngược lại với quy trình triển khai:
-1. Xóa Auto Scaling Group và Launch Template để ngăn chặn hệ thống tiếp tục sinh ra EC2 instance mới.
-2. Xóa Application Load Balancer và Target Group đi kèm.
-3. Chấm dứt thủ công các máy chủ EC2 (Terminate Instance) còn sót lại.
-4. Xóa database Amazon RDS và loại bỏ các snapshot/backup đi kèm.
-5. Xóa các NAT Gateway và giải phóng Elastic IP (Release EIP) ngay lập tức.
-6. Xóa Internet Gateway, Route Tables, Subnets và cuối cùng là xóa hoàn toàn VPC.
+1. Xóa Auto Scaling Group và Launch Template để ngăn chặn hệ thống tiếp tục sinh ra EC2 instance mới. Tham khảo: [Xóa Auto Scaling Group](https://docs.aws.amazon.com/autoscaling/ec2/userguide/delete-auto-scaling-group.html)
+2. Xóa Application Load Balancer và Target Group đi kèm. Tham khảo: [Xóa ALB](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/application-load-balancer-getting-started.html#delete-load-balancer)
+3. Chấm dứt thủ công các máy chủ EC2 (Terminate Instance) còn sót lại. Tham khảo: [Terminate EC2 Instances](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/terminating-instances.html)
+4. Xóa database Amazon RDS và loại bỏ các snapshot/backup đi kèm. Tham khảo: [Xóa RDS Instance](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_DeleteInstance.html)
+5. Xóa các NAT Gateway và giải phóng Elastic IP (Release EIP) ngay lập tức. Tham khảo: [Xóa NAT Gateway](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html#nat-gateway-deleting)
+6. Xóa Internet Gateway, Route Tables, Subnets và cuối cùng là xóa hoàn toàn VPC. Tham khảo: [Xóa VPC](https://docs.aws.amazon.com/vpc/latest/userguide/delete-vpc.html)

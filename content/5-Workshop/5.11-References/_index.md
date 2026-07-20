@@ -62,16 +62,19 @@ Below is the estimated monthly cost analysis for running the system architecture
 ## 4. Development and deployment
 
 The development and deployment lifecycle adhered to modern standard practices:
-*   Source code version control was maintained centrally on **GitHub**.
-*   The application was **containerized using Docker**, ensuring environmental consistency from local development machines directly to production EC2 instances.
+*   Source code version control was maintained centrally on **GitHub**: [About GitHub](https://github.com/about)
+*   The application was **containerized using Docker**, ensuring environmental consistency from local development machines directly to production EC2 instances. Reference: [Docker on AWS](https://aws.amazon.com/docker/)
 *   Infrastructure deployment was executed via the AWS Console, heavily relying on **EC2 User Data** within the Launch Template to automatically install dependencies and pull the latest Docker image whenever the Auto Scaling Group scales out.
+    *   Reference: [Run commands on your Linux instance at launch (User Data)](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html)
+    *   Reference: [AWS Auto Scaling Groups](https://docs.aws.amazon.com/autoscaling/ec2/userguide/AutoScalingGroup.html)
+    *   Reference: [Create a Launch Template for an Auto Scaling group](https://docs.aws.amazon.com/autoscaling/ec2/userguide/create-launch-template.html)
 
 ## 5. Cost and resource cleanup
 
 Because this architecture relies on hourly-billed services (especially NAT Gateways, EC2, and ALB), systematic resource cleanup after the demonstration phase is critical to prevent unwanted credit consumption. Resources must be terminated in reverse-dependency order:
-1. Delete the Auto Scaling Group and Launch Template to stop the continuous spawning of new instances.
-2. Delete the Application Load Balancer and its Target Group.
-3. Manually terminate any remaining EC2 instances.
-4. Delete the Amazon RDS database instance and its associated automated snapshots.
-5. Delete the NAT Gateways and subsequently release the Elastic IPs.
-6. Finally, tear down the Internet Gateway, Route Tables, Subnets, and the VPC itself.
+1. Delete the Auto Scaling Group and Launch Template to stop the continuous spawning of new instances. Reference: [Delete your Auto Scaling group](https://docs.aws.amazon.com/autoscaling/ec2/userguide/delete-auto-scaling-group.html)
+2. Delete the Application Load Balancer and its Target Group. Reference: [Delete an Application Load Balancer](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/application-load-balancer-getting-started.html#delete-load-balancer)
+3. Manually terminate any remaining EC2 instances. Reference: [Terminate EC2 Instances](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/terminating-instances.html)
+4. Delete the Amazon RDS database instance and its associated automated snapshots. Reference: [Deleting a DB instance](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_DeleteInstance.html)
+5. Delete the NAT Gateways and subsequently release the Elastic IPs. Reference: [Delete a NAT gateway](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html#nat-gateway-deleting)
+6. Finally, tear down the Internet Gateway, Route Tables, Subnets, and the VPC itself. Reference: [Delete your VPC](https://docs.aws.amazon.com/vpc/latest/userguide/delete-vpc.html)
