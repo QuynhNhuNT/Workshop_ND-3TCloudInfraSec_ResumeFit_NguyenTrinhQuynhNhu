@@ -1,5 +1,5 @@
 ---
-title: "5.1 & 5.2 - Giới thiệu & Chuẩn bị"
+title: "Giá»›i thiá»‡u"
 date: 2026-07-10
 weight: 1
 chapter: false

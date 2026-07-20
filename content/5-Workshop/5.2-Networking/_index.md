@@ -1,14 +1,14 @@
 ---
-title: "5.3 - Network Infrastructure"
+title: "Network Infrastructure"
 date: 2026-07-10
 weight: 2
 chapter: false
-pre: " <b> 5.3. </b> "
+pre: " <b> 5.2. </b> "
 ---
 
-# 5.3. Network Infrastructure (Networking)
+# 5.2. Network Infrastructure (Networking)
 
-## 5.3.1. Create VPC and Internet Gateway
+## 5.2.1. Create VPC and Internet Gateway
 
 An isolated network environment (VPC) is a solid security foundation for the entire application, allowing full control over network traffic.
 
@@ -33,7 +33,7 @@ An isolated network environment (VPC) is a solid security foundation for the ent
   </div>
 </div>
 
-## 5.3.2. Configure Subnets and Route Tables
+## 5.2.2. Configure Subnets and Route Tables
 
 Divide the VPC IP range into subnets to isolate the application layers (Public for Load Balancers, Private App for EC2s, and Private DB for RDS).
 
@@ -70,7 +70,7 @@ Divide the VPC IP range into subnets to isolate the application layers (Public f
   </div>
 </div>
 
-## 5.3.3. Configure NAT Gateway for Private Subnets
+## 5.2.3. Configure NAT Gateway for Private Subnets
 
 Allows instances in the Private Subnets to make one-way outbound connections to the internet (to download packages and update software) while blocking any inbound connections initiated from the internet.
 

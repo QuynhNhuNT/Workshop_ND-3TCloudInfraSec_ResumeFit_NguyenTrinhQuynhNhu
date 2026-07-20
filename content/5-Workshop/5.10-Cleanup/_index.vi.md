@@ -1,12 +1,12 @@
 ---
-title: "5.11 - Dọn dẹp tài nguyên"
+title: "Dọn dẹp tài nguyên"
 date: 2026-07-10
 weight: 10
 chapter: false
-pre: " <b> 5.11. </b> "
+pre: " <b> 5.10. </b> "
 ---
 
-# 5.11. Dọn dẹp tài nguyên (Clean up)
+# 5.10. Dọn dẹp tài nguyên (Clean up)
 
 Sau khi hoàn tất quá trình workshop và kiểm thử, để tránh phát sinh chi phí lưu trữ và duy trì hạ tầng không cần thiết trên AWS, hãy tiến hành dọn dẹp các tài nguyên theo thứ tự sau:
 

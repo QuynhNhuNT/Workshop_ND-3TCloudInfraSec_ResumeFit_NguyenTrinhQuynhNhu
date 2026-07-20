@@ -1,14 +1,14 @@
 ---
-title: "5.3 - Xây dựng Hạ tầng Mạng"
+title: "Xây dựng Hạ tầng Mạng"
 date: 2026-07-10
 weight: 2
 chapter: false
-pre: " <b> 5.3. </b> "
+pre: " <b> 5.2. </b> "
 ---
 
-# 5.3. Xây dựng Hạ tầng Mạng (Networking)
+# 5.2. Xây dựng Hạ tầng Mạng (Networking)
 
-## 5.3.1. Tạo VPC và Internet Gateway
+## 5.2.1. Tạo VPC và Internet Gateway
 
 Hạ tầng mạng cô lập (VPC) là nền tảng bảo mật vững chắc cho toàn bộ ứng dụng, giúp kiểm soát hoàn toàn luồng giao thông mạng.
 
@@ -33,7 +33,7 @@ Hạ tầng mạng cô lập (VPC) là nền tảng bảo mật vững chắc ch
   </div>
 </div>
 
-## 5.3.2. Cấu hình Subnet và Route Table
+## 5.2.2. Cấu hình Subnet và Route Table
 
 Chia nhỏ dải mạng VPC thành các mạng con để phân tách các tầng ứng dụng (Public cho Load Balancer, Private App cho EC2, Private DB cho RDS).
 
@@ -70,7 +70,7 @@ Chia nhỏ dải mạng VPC thành các mạng con để phân tách các tầng
   </div>
 </div>
 
-## 5.3.3. Thiết lập NAT Gateway cho Private Subnets
+## 5.2.3. Thiết lập NAT Gateway cho Private Subnets
 
 Giúp các instance ở Private Subnet kết nối ra internet một chiều (để tải package, cập nhật phần mềm) nhưng từ chối các kết nối khởi tạo từ internet đi vào.
 

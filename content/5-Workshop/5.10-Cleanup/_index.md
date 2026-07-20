@@ -1,12 +1,12 @@
 ---
-title: "5.11 - Clean up Resources"
+title: "Clean up Resources"
 date: 2026-07-10
 weight: 10
 chapter: false
-pre: " <b> 5.11. </b> "
+pre: " <b> 5.10. </b> "
 ---
 
-# 5.11. Clean up Resources (Clean up)
+# 5.10. Clean up Resources (Clean up)
 
 After completing the workshop and testing, to avoid incurring unnecessary storage and infrastructure maintenance costs on AWS, proceed with cleaning up resources in the following order:
 

@@ -1,14 +1,14 @@
 ---
-title: "5.6 - Relational Database (RDS)"
+title: "Relational Database (RDS)"
 date: 2026-07-10
 weight: 5
 chapter: false
-pre: " <b> 5.6. </b> "
+pre: " <b> 5.5. </b> "
 ---
 
-# 5.6. Relational Database Service (RDS) Setup
+# 5.5. Relational Database Service (RDS) Setup
 
-## 5.6.1. Configure Secrets Manager
+## 5.5.1. Configure Secrets Manager
 
 1. Navigate to **AWS Secrets Manager**, and create a secret named `ResumeMatching-Secrets` to secure sensitive values.
 2. Configure the **Secret value** containing key/value entries such as `HOST` (to be updated later with the RDS Endpoint), `PORT` (`5432`), `USERNAME`, `PASSWORD`, and the application's `OPENAI_API_KEY`.
@@ -22,7 +22,7 @@ pre: " <b> 5.6. </b> "
   </div>
 </div>
 
-## 5.6.2. Create RDS PostgreSQL Database
+## 5.5.2. Create RDS PostgreSQL Database
 
 1. Open the **RDS** console, select **Subnet groups** and create a database subnet group named `resumematching-dbsubnetgroup` referencing the project VPC, grouping subnets `Private-DB-A` and `Private-DB-B` together.
 2. Proceed to initialize the Database (DB identifier: `resume-matching-db`) with the **PostgreSQL** Engine and instance class `db.t3.micro`.

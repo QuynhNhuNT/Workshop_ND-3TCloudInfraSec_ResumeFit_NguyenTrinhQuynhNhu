@@ -1,14 +1,14 @@
 ---
-title: "5.4 - Security & Access Management"
+title: "Security & Access Management"
 date: 2026-07-10
 weight: 3
 chapter: false
-pre: " <b> 5.4. </b> "
+pre: " <b> 5.3. </b> "
 ---
 
-# 5.4. Security and Access Management
+# 5.3. Security and Access Management
 
-## 5.4.1. Initialize Security Groups
+## 5.3.1. Initialize Security Groups
 
 Configure virtual firewalls to control network traffic between resources at the protocol and port level.
 
@@ -32,7 +32,7 @@ Configure virtual firewalls to control network traffic between resources at the 
   </div>
 </div>
 
-## 5.4.2. Configure IAM Roles
+## 5.3.2. Configure IAM Roles
 
 Provide secure authorization for EC2 instances to communicate with other AWS services without hard-coding static Access Keys.
 

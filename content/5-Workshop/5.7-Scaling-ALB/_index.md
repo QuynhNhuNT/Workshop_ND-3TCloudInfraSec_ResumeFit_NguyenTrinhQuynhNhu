@@ -1,14 +1,14 @@
 ---
-title: "5.8 - Auto Scaling & Load Balancing"
+title: "Auto Scaling & Load Balancing"
 date: 2026-07-10
 weight: 7
 chapter: false
-pre: " <b> 5.8. </b> "
+pre: " <b> 5.7. </b> "
 ---
 
-# 5.8. Auto Scaling and Load Balancing Configuration
+# 5.7. Auto Scaling and Load Balancing Configuration
 
-## 5.8.1. Configure AMI and Launch Template
+## 5.7.1. Configure AMI and Launch Template
 
 1. Standardize the configured EC2 environment by creating an Amazon Machine Image (AMI) named `ResumeMatching-Backend-AMI`.
 2. From this AMI, create a **Launch Template** named `ResumeMatching-LT` containing standard hardware, networking, and security configurations.
@@ -22,7 +22,7 @@ pre: " <b> 5.8. </b> "
   </div>
 </div>
 
-## 5.8.2. Auto Scaling Group (ASG)
+## 5.7.2. Auto Scaling Group (ASG)
 
 1. Create an Auto Scaling Group named `ResumeMatching-ASG` and link it to the `ResumeMatching-LT` Launch Template.
 2. Edit the Desired capacity to `2`. The ASG will automatically launch new EC2 instances in an `Initializing` state for redundancy and scaling.
@@ -39,7 +39,7 @@ pre: " <b> 5.8. </b> "
   </div>
 </div>
 
-## 5.8.3. Target Group and Application Load Balancer
+## 5.7.3. Target Group and Application Load Balancer
 
 1. Create a **Target Group** named `ResumeMatching-TG` with target type `Instance` using HTTP protocol on port `8080` (or `80` depending on container config).
 2. Initialize an **Application Load Balancer (ALB)** named `ResumeMatching-ALB`. Select the Scheme as `Internet-facing` to receive traffic from the internet, listen across 2 Availability Zones, and route traffic to the backend instances via the Target Group.

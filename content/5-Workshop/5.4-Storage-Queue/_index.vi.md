@@ -1,14 +1,14 @@
 ---
-title: "5.5 - Lưu trữ & Hàng đợi"
+title: "Lưu trữ & Hàng đợi"
 date: 2026-07-10
 weight: 4
 chapter: false
-pre: " <b> 5.5. </b> "
+pre: " <b> 5.4. </b> "
 ---
 
-# 5.5. Thiết lập Dịch vụ Lưu trữ và Hàng đợi
+# 5.4. Thiết lập Dịch vụ Lưu trữ và Hàng đợi
 
-## 5.5.1. Khởi tạo S3 Bucket
+## 5.4.1. Khởi tạo S3 Bucket
 
 1. Chuyển sang dịch vụ **S3**, nhấn **Create bucket** để tạo nơi lưu trữ CV và tài liệu của ứng viên.
 2. Đặt tên bucket có dạng `resume-matching-storage-[AWS-ACCOUNT-ID]-us-east-1`.
@@ -26,7 +26,7 @@ pre: " <b> 5.5. </b> "
   </div>
 </div>
 
-## 5.5.2. Khởi tạo SQS Queues
+## 5.4.2. Khởi tạo SQS Queues
 
 Sử dụng hàng đợi để tách biệt luồng xử lý AI nặng nề ra khỏi luồng phản hồi web chính.
 

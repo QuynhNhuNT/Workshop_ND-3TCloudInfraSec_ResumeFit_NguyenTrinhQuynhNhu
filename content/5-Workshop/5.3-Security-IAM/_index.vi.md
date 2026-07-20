@@ -1,14 +1,14 @@
 ---
-title: "5.4 - Bảo mật & Quản lý Truy cập"
+title: "Bảo mật & Quản lý Truy cập"
 date: 2026-07-10
 weight: 3
 chapter: false
-pre: " <b> 5.4. </b> "
+pre: " <b> 5.3. </b> "
 ---
 
-# 5.4. Thiết lập Bảo mật và Quản lý Truy cập
+# 5.3. Thiết lập Bảo mật và Quản lý Truy cập
 
-## 5.4.1. Khởi tạo Security Groups
+## 5.3.1. Khởi tạo Security Groups
 
 Thiết lập tường lửa ảo kiểm soát luồng giao thông mạng giữa các tài nguyên ở mức độ giao thức và cổng kết nối.
 
@@ -32,7 +32,7 @@ Thiết lập tường lửa ảo kiểm soát luồng giao thông mạng giữa
   </div>
 </div>
 
-## 5.4.2. Cấu hình IAM Roles
+## 5.3.2. Cấu hình IAM Roles
 
 Cấp quyền ủy quyền an toàn cho các máy chủ EC2 giao tiếp với các dịch vụ AWS khác mà không cần lưu trữ Hard-code Access Key.
 

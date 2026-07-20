@@ -1,5 +1,5 @@
 ---
-title: "5.1 & 5.2 - Introduction & Prerequisites"
+title: "Introduction"
 date: 2026-07-10
 weight: 1
 chapter: false

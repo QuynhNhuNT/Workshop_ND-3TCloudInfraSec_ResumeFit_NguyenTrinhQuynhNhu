@@ -1,14 +1,14 @@
 ---
-title: "5.7 - Compute & Server Configuration"
+title: "Compute & Server Configuration"
 date: 2026-07-10
 weight: 6
 chapter: false
-pre: " <b> 5.7. </b> "
+pre: " <b> 5.6. </b> "
 ---
 
-# 5.7. Compute Deployment and Server Configuration
+# 5.6. Compute Deployment and Server Configuration
 
-## 5.7.1. Launch EC2 Backend Instance
+## 5.6.1. Launch EC2 Backend Instance
 
 1. Create an RSA **Key Pair** named `ResumeMatching-Key`.
 2. In the EC2 Dashboard, launch an Instance named `ResumeMatching-Backend` using instance type `t3.micro` placed in the application VPC.
@@ -23,7 +23,7 @@ pre: " <b> 5.7. </b> "
   </div>
 </div>
 
-## 5.7.2. Connect and Install Software
+## 5.6.2. Connect and Install Software
 
 1. Securely connect to the EC2 instance using **Systems Manager Fleet Manager**. Choose the running Managed node and click **Start terminal session**.
 2. Execute the Git installation command to fetch the source code:

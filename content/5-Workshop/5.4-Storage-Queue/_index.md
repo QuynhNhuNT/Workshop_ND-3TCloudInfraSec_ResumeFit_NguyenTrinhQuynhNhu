@@ -1,14 +1,14 @@
 ---
-title: "5.5 - Storage & Queue Services"
+title: "Storage & Queue Services"
 date: 2026-07-10
 weight: 4
 chapter: false
-pre: " <b> 5.5. </b> "
+pre: " <b> 5.4. </b> "
 ---
 
-# 5.5. Storage and Queue Services
+# 5.4. Storage and Queue Services
 
-## 5.5.1. Initialize S3 Bucket
+## 5.4.1. Initialize S3 Bucket
 
 1. Switch to the **S3** service, and click **Create bucket** to create storage space for candidate CVs and documents.
 2. Define a bucket name following the pattern `resume-matching-storage-[AWS-ACCOUNT-ID]-us-east-1`.
@@ -26,7 +26,7 @@ pre: " <b> 5.5. </b> "
   </div>
 </div>
 
-## 5.5.2. Initialize SQS Queues
+## 5.4.2. Initialize SQS Queues
 
 Utilize message queuing to decouple heavy AI processing workloads from the main web server response cycle.
 

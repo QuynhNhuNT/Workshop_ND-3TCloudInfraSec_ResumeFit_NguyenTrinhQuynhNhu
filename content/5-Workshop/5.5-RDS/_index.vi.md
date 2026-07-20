@@ -1,14 +1,14 @@
 ---
-title: "5.6 - Cơ sở dữ liệu (RDS)"
+title: "Cơ sở dữ liệu (RDS)"
 date: 2026-07-10
 weight: 5
 chapter: false
-pre: " <b> 5.6. </b> "
+pre: " <b> 5.5. </b> "
 ---
 
-# 5.6. Thiết lập Hệ Quản Trị Cơ Sở Dữ Liệu (RDS)
+# 5.5. Thiết lập Hệ Quản Trị Cơ Sở Dữ Liệu (RDS)
 
-## 5.6.1. Cấu hình Secrets Manager
+## 5.5.1. Cấu hình Secrets Manager
 
 1. Truy cập **AWS Secrets Manager**, tạo secret tên `ResumeMatching-Secrets` để lưu trữ thông tin nhạy cảm.
 2. Cấu hình phần **Secret value** với các trường Key/value như `HOST` (sẽ được cập nhật sau khi có RDS Endpoint), `PORT` (`5432`), `USERNAME`, `PASSWORD`, và `OPENAI_API_KEY` của ứng dụng.
@@ -22,7 +22,7 @@ pre: " <b> 5.6. </b> "
   </div>
 </div>
 
-## 5.6.2. Tạo RDS PostgreSQL
+## 5.5.2. Tạo RDS PostgreSQL
 
 1. Truy cập giao diện **RDS**, chọn mục **Subnet groups** và tạo một subnet group tên `resumematching-dbsubnetgroup` trỏ vào VPC và gom 2 subnet `Private-DB-A`, `Private-DB-B` lại với nhau.
 2. Tiến hành khởi tạo Database (DB identifier: `resume-matching-db`) với Engine là **PostgreSQL** và instance class là `db.t3.micro`.

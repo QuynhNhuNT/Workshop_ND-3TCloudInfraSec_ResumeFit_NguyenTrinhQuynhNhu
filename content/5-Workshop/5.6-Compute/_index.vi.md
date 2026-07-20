@@ -1,14 +1,14 @@
 ---
-title: "5.7 - Compute & Cấu hình Server"
+title: "Compute & Cấu hình Server"
 date: 2026-07-10
 weight: 6
 chapter: false
-pre: " <b> 5.7. </b> "
+pre: " <b> 5.6. </b> "
 ---
 
-# 5.7. Triển khai Compute và Cấu hình Server
+# 5.6. Triển khai Compute và Cấu hình Server
 
-## 5.7.1. Khởi tạo EC2 Backend Instance
+## 5.6.1. Khởi tạo EC2 Backend Instance
 
 1. Tạo một khóa **Key Pair** (`ResumeMatching-Key`) kiểu RSA.
 2. Tại EC2 Dashboard, khởi chạy một Instance có tên `ResumeMatching-Backend` với Instance type là `t3.micro` đặt trong VPC ứng dụng.
@@ -23,7 +23,7 @@ pre: " <b> 5.7. </b> "
   </div>
 </div>
 
-## 5.7.2. Kết nối và cài đặt phần mềm
+## 5.6.2. Kết nối và cài đặt phần mềm
 
 1. Truy cập EC2 từ xa an toàn bằng **Systems Manager Fleet Manager**. Chọn Managed node đang Running và nhấn **Start terminal session**.
 2. Thực thi lệnh cài đặt **Git** để kéo mã nguồn:

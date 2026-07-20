@@ -1,14 +1,14 @@
 ---
-title: "5.10 - Kiểm thử Ứng dụng"
+title: "Kiểm thử Ứng dụng"
 date: 2026-07-10
 weight: 9
 chapter: false
-pre: " <b> 5.10. </b> "
+pre: " <b> 5.9. </b> "
 ---
 
-# 5.10. Kiểm thử Ứng dụng Resume Fit
+# 5.9. Kiểm thử Ứng dụng Resume Fit
 
-## 5.10.1. Kiểm tra kết nối Backend và Database qua ALB
+## 5.9.1. Kiểm tra kết nối Backend và Database qua ALB
 
 1. Kiểm thử thông qua endpoint API của ALB (ví dụ: `http://[ALB-DNS-Name]/api/ready`) để nhận về phản hồi JSON `{"status": "ready"}` chứng minh toàn bộ Backend và Database đã được liên kết thành công.
 
@@ -21,7 +21,7 @@ pre: " <b> 5.10. </b> "
   </div>
 </div>
 
-## 5.10.2. Trải nghiệm luồng giao diện người dùng (UI Flow)
+## 5.9.2. Trải nghiệm luồng giao diện người dùng (UI Flow)
 
 ### 1. Đăng ký & Đăng nhập Hệ thống
 Truy cập Domain/IP của Frontend. Tại giao diện **Đăng ký** và **Đăng nhập hệ thống**, tiến hành tạo tài khoản và đăng nhập vào không gian làm việc.

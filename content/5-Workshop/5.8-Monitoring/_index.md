@@ -1,22 +1,22 @@
 ---
-title: "5.9 - System Monitoring"
+title: "System Monitoring"
 date: 2026-07-10
 weight: 8
 chapter: false
-pre: " <b> 5.9. </b> "
+pre: " <b> 5.8. </b> "
 ---
 
-# 5.9. System Monitoring and High Availability (Monitoring)
+# 5.8. System Monitoring and High Availability (Monitoring)
 
 Monitoring is mandatory to ensure traffic is correctly distributed and Auto Scaling rules trigger as expected.
 
-## 5.9.1. Verify Auto Scaling Group Operations
+## 5.8.1. Verify Auto Scaling Group Operations
 
 1. Access the **EC2** service, and navigate to the **Instances** menu.
 2. Observe the system automatically creating new EC2 instances named `ResumeMatching-ASG-Instance` distributed evenly across different Availability Zones.
 3. Some older instances may display a `Terminated` status. This proves that the ASG is functioning correctly: automatically reclaiming old instances and launching new ones upon configuration updates or instance failure.
 
-## 5.9.2. Verify Target Group Health Checks
+## 5.8.2. Verify Target Group Health Checks
 
 1. Under the **Load Balancing** section, select **Target Groups** and click on the system's Target Group.
 2. Switch to the **Targets** tab and observe the **Registered targets** table.
@@ -28,7 +28,7 @@ Monitoring is mandatory to ensure traffic is correctly distributed and Auto Scal
   </div>
 </div>
 
-## 5.9.3. Performance Monitoring via CloudWatch
+## 5.8.3. Performance Monitoring via CloudWatch
 
 1. Access **CloudWatch** and select the **Metrics** menu to monitor deeper parameters.
 2. **For EC2**: Filter for the EC2 Namespace, and choose `CPUUtilization`. Observe the graphs to spot usage spikes (e.g., `81.9%`) when the AI executes heavy tasks, which helps you set scaling thresholds for the ASG.

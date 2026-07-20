@@ -1,14 +1,14 @@
 ---
-title: "5.10 - Application Testing"
+title: "Application Testing"
 date: 2026-07-10
 weight: 9
 chapter: false
-pre: " <b> 5.10. </b> "
+pre: " <b> 5.9. </b> "
 ---
 
-# 5.10. Testing the Resume Fit Application
+# 5.9. Testing the Resume Fit Application
 
-## 5.10.1. Verify Backend and Database Connectivity via ALB
+## 5.9.1. Verify Backend and Database Connectivity via ALB
 
 1. Test using the ALB API endpoint (e.g., `http://[ALB-DNS-Name]/api/ready`) to receive the JSON response `{"status": "ready"}` proving the Backend and Database have successfully connected.
 
@@ -21,7 +21,7 @@ pre: " <b> 5.10. </b> "
   </div>
 </div>
 
-## 5.10.2. Step-by-Step UI Flow Walkthrough
+## 5.9.2. Step-by-Step UI Flow Walkthrough
 
 ### 1. Register & Login to System
 Access the Frontend Domain/IP. Create an account and log in via the **Register** and **Login** screens to enter your workspace.
